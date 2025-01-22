@@ -1,7 +1,7 @@
 # LABORATORIO 1- INTRODUCCIÓN GIT
 ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 
- ![alt text](image.png)
+ ![alt text](assets/image.png)
 
 
   
@@ -9,11 +9,11 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 
 1.	Crea un repositorio localmente.
 
-    ![alt text](image-3.png)
+    ![alt text](assets/image-3.png)
 
 2.	Agrega un archivo de ejemplo al repositorio, el **README.md** puede ser una gran opción.
 
-    ![alt text](image-4.png)
+    ![alt text](assets/image-4.png)
 
 3.	Averigua para qué sirve y como se usan estos comandos **git add** y **git commit -m “mensaje”**
 
@@ -22,17 +22,17 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 
 4. Abre una cuenta de github, si ya la tienes, enlazala con el correo institucional.
    
-  ![alt text](image-1.png)
+  ![alt text](assets/image-1.png)
    
 5.	Crea un repositorio en blanco (vacío) e GitHub.
 
-![alt text](image-2.png)
+![alt text](assets/image-2.png)
    
 6.	Configura el repositorio local con el repositorio remoto.
 
       [Como subir un proyecto local a github.](https://gist.github.com/cgonzalezdai/cc33db72a6fe5178637aabb562eae35c)
 
-      ![alt text](image-9.png)
+      ![alt text](assets/image-9.png)
   
 7.	Sube los cambios, teniendo en cuenta lo que averiguaste en el punto 3
     Utiliza los siguientes comando en el directorio donde tienes tu proyecto, en este orden:
@@ -40,37 +40,37 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
       git add .
     ```
 
-    ![alt text](image-5.png)
+    ![alt text](assets/image-5.png)
     ```bash
       git commit -m "mensaje, lo que hiciste con el archivo"
     ```
-    ![alt text](image-6.png)
+    ![alt text](assets/image-6.png)
 
     ```bash
      git config user.name "Nombre del usuario"
     ```
-    ![alt text](image-7.png)
+    ![alt text](assets/image-7.png)
     ```bash
       git push "url repositorio"
     ```
 
-    ![alt text](image-8.png)
+    ![alt text](assets/image-8.png)
 
 8.	Configura el correo en git local de manera correcta
      [Configurar correo electrónico en GitHub](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
 
-     ![alt text](image-11.png)
+     ![alt text](assets/image-11.png)
 9.	Vuelve a subir los cambios y observa que todo esté bien en el repositorio remoto (en GitHub).
 
-    ![alt text](image-12.png)
-    ![alt text](image-13.png)
+    ![alt text](assets/image-12.png)
+    ![alt text](assets/image-13.png)
 
 
 ## PARTE II (Trabajo en parejas)
 
 1.	Se escogen los roles para trabajar en equipo, una persona debe escoger ser "Owner" o Propietario del repositorio y la otra "Collaborator" o Colaborador en el repositorio.
    
-   ![image](https://github.com/PDSW-ECI/labs/assets/118181543/716464e4-d663-477d-a87d-0f2944e5b709)
+   ![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/716464e4-d663-477d-a87d-0f2944e5b709)
 
 2.	El owner agrega al colaborador con permisos de escritura en el repositorio que creó en la parte 1
    
@@ -94,9 +94,9 @@ De esta forma ya sabes resolver conflictos directamente sobre los archivos y usa
 2.	¿Qué es y como funciona el **Pull Request**?
 3.	Creen una rama cada uno y suban sus cambios
    
-   ![image](https://github.com/PDSW-ECI/labs/assets/118181543/e558ac3b-f5d8-443a-8958-aacdedef7f94)
-  	![image](https://github.com/PDSW-ECI/labs/assets/118181543/074eacc9-6284-4a41-9805-c9e30a169e5d)
-  	![image](https://github.com/PDSW-ECI/labs/assets/118181543/5c664e91-d3a3-4b56-867b-3b06d9ffce72)
+   ![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/e558ac3b-f5d8-443a-8958-aacdedef7f94)
+  	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/074eacc9-6284-4a41-9805-c9e30a169e5d)
+  	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/5c664e91-d3a3-4b56-867b-3b06d9ffce72)
 
 4.	Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master
    
@@ -111,33 +111,33 @@ De esta forma ya sabes resolver conflictos directamente sobre los archivos y usa
 
 Se dirigen a la configuración de su repositorio:
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/859fb07c-5748-4b8e-91f4-2f5ee7229f90)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/859fb07c-5748-4b8e-91f4-2f5ee7229f90)
 
 Y en general
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/a2bc8b9d-4200-472e-a712-56498b0f59b3)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/a2bc8b9d-4200-472e-a712-56498b0f59b3)
 
 Se dirigen al final en el área del pull requests y seleccionan “Automatically delete head branches”
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/838f51a7-6b2c-4673-9a60-65fe11a75647)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/838f51a7-6b2c-4673-9a60-65fe11a75647)
 
 ***Aprobación Pull Request***
 
 Nos dirigimos (todavía en configuraciones) a Branches, en esta visualizarán donde daremos protección de nuestras ramas, seleccionamos Add rule
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/7104fcaa-c1dd-4345-a8d0-d6a4f531de79)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/7104fcaa-c1dd-4345-a8d0-d6a4f531de79)
 
 Aquí damos el nombre de nuestra rama (Verificar el nombre tal cual lo tenemos en nuestro repositorio) y seleccionamos la primera opción como se muestra, así estamos requiriendo que cuando se haga ese pull request en nuestra rama se necesita aprobación de otro compañero
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/0631402e-6210-4b8a-a040-de594455e3b0)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/0631402e-6210-4b8a-a040-de594455e3b0)
 
 Vamos al final y damos clic en Create
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/7e878bd7-8b68-4403-af98-380700d81459)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/7e878bd7-8b68-4403-af98-380700d81459)
 
 Y así protegimos nuestra rama principal, esto se vuelve muy relevante cuando trabajamos en parejas o en equipos, deberían tener un mensaje final que se vea así
 
-![image](https://github.com/PDSW-ECI/labs/assets/118181543/1e39b81c-82c8-4fec-b2e6-b339c782b6ad)
+![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/1e39b81c-82c8-4fec-b2e6-b339c782b6ad)
 
 
 ## ENTREGA
