@@ -134,7 +134,7 @@ Permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de
   	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/074eacc9-6284-4a41-9805-c9e30a169e5d)
   	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/5c664e91-d3a3-4b56-867b-3b06d9ffce72)
 
-    ![alt text](assets/image-24.png)
+![alt text](assets/image-24.png)
   
 
 4.	Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master
