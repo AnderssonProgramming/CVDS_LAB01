@@ -121,7 +121,7 @@ De esta forma ya sabes resolver conflictos directamente sobre los archivos y usa
 ## PARTE III (Trabajo de a parejas)
 1.	¿Hay una mejor forma de trabajar con git para no tener conflictos?
 
-Si, esa forma consiste en no trabajar todo sobre el repositorio central, sino crear una rama nueva, y sobre esa hacer cambios, luego cuando esté seguro que el proyecto está bien, entonces se hace el PR, para subir y dejar todo en la rama principal (main); usando git flow.
+Si, esa forma consiste en no trabajar todo sobre la main, sino crear una rama nueva, y sobre esa hacer cambios, luego cuando esté seguro que el proyecto está bien, entonces se hace el PR, para subir y dejar todo en la rama principal (main); usando git flow.
 
 2.	¿Qué es y como funciona el **Pull Request**?
 
@@ -134,9 +134,9 @@ Permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de
   	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/074eacc9-6284-4a41-9805-c9e30a169e5d)
   	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/5c664e91-d3a3-4b56-867b-3b06d9ffce72)
 
-
-  ![alt text](assets/image-24.png)
+    ![alt text](assets/image-24.png)
   
+
 4.	Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master
    
      [Pull Request - GitHub](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
