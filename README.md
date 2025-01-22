@@ -3,8 +3,15 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 
  ![alt text](assets/image.png)
 
+## INTEGRANTES
 
-  
+*ANDERSSON DAVID SÁNCHEZ MÉNDEZ*
+
+*CRISTIAN SANTIAGO PEDRAZA RODRÍGUEZ*
+
+
+
+## RESPUESTAS
 ## PARTE I (Trabajo Individual). 
 
 1.	Crea un repositorio localmente.
@@ -136,16 +143,22 @@ Permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de
 
 ![alt text](assets/image-24.png)
   
-
+![alt text](assets/image-25.png)
+![alt text](assets/image-26.png)
 4.	Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master
    
      [Pull Request - GitHub](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
   	
-   
+![alt text](assets/image-27.png)
+![alt text](assets/image-28.png)
+
+![alt text](assets/image-29.png)
  **(Recomendación : deben trabajar en equipo y distribuirse de mejor manera quien va a modificar qué, para evitar modificar los mismos archivos al mismo tiempo, si no se editan los mismos archivos la resolución de conflictos es automática)**
 
 5.	Teniendo en cuenta la recomendación, mezclen los cambios a la rama main a través de PR con el check/review/approval del otro compañero (Cuando se hace merge se deberían borrar las ramas en github)
 
+
+![alt text](assets/image-30.png)
 ***Como Borrar Ramas después de un Pull Request***
 
 Se dirigen a la configuración de su repositorio:
@@ -170,6 +183,7 @@ Aquí damos el nombre de nuestra rama (Verificar el nombre tal cual lo tenemos e
 
 ![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/0631402e-6210-4b8a-a040-de594455e3b0)
 
+![alt text](assets/image-31.png)
 Vamos al final y damos clic en Create
 
 ![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/7e878bd7-8b68-4403-af98-380700d81459)
@@ -178,6 +192,7 @@ Y así protegimos nuestra rama principal, esto se vuelve muy relevante cuando tr
 
 ![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/1e39b81c-82c8-4fec-b2e6-b339c782b6ad)
 
+![alt text](assets/image-32.png)
 
 ## ENTREGA
 - En un README.md colocar lo siguiente:
