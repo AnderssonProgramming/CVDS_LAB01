@@ -83,35 +83,35 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 
 3.	El owner le comparte la url via Teams al colaborador
 
-    ![alt text](image.png)
+    ![alt text](assets/image-14.png)
 
 4.	El colaborador acepta la invitación al repositorio.
 
-![alt text](image-1.png)
+![alt text](assets/image-15.png)
 *Ahora ya tengo acceso al repositorio de Cristian*
-![alt text](image-2.png)
+![alt text](assets/image-16.png)
 
 *Hago git clone para bajar el repositorio central de Cristian de manera local en el computador.*
-![alt text](image-3.png)
+![alt text](assets/image-17.png)
 
-![alt text](image-4.png)
+![alt text](assets/image-18.png)
 5.	Owner y Colaborador editan el archivo README.md al mismo tiempo e intentan subir los cambios al mismo tiempo.
 6.	¿Que sucedió?
 
-![alt text](image-6.png)
-![alt text](image-5.png)
+![alt text](assets/image-20.png)
+![alt text](assets/image-19.png)
 7.	La persona que perdió la competencia de subir los cambios, tiene que resolver los conflictos, cúando haces pull de los cambios, los archivos tienen los símbolos `<<<` `===` y `>>>` (son normales en la resolución de conflictos), estos conflictos debes resolverlos manualmente.
          [Como resolver Conflictos GitHub](https://docs.github.com/es/enterprise-cloud@latest/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)
          
 
-![alt text](image-7.png) 
+![alt text](assets/image-21.png) 
 *Se resolvieron los conflictos dándole en resolve merge*
-![alt text](image-8.png)
+![alt text](assets/image-22.png)
 8.	Volver a repetir un cambio sobre el README.md ambas personas al tiempo para volver a tener conflictos.
   
   *Ahora yo hago push y luego mi compañero el pull para ver el error que sucede para solucionarlo en IntellijIDEA*
 
-  ![alt text](image-9.png)
+  ![alt text](assets/image-23.png)
 
 
 9.	Resuelvan el conflicto con IntelliJ si es posible,  [Resolver conflictos en IntelliJ]( https://www.jetbrains.com/help/idea/resolving-conflicts.html#distributed-version-control-systems)
@@ -121,14 +121,22 @@ De esta forma ya sabes resolver conflictos directamente sobre los archivos y usa
 ## PARTE III (Trabajo de a parejas)
 1.	¿Hay una mejor forma de trabajar con git para no tener conflictos?
 
-Si, esa forma consiste en no trabajar todo sobre el repositorio.
+Si, esa forma consiste en no trabajar todo sobre el repositorio central, sino crear una rama nueva, y sobre esa hacer cambios, luego cuando esté seguro que el proyecto está bien, entonces se hace el PR, para subir y dejar todo en la rama principal (main); usando git flow.
+
 2.	¿Qué es y como funciona el **Pull Request**?
+
+Permite a tu equipo solicitar la revisión y aprobación de sus cambios antes de fusionarlos en la rama principal (main).
+
+
 3.	Creen una rama cada uno y suban sus cambios
    
    ![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/e558ac3b-f5d8-443a-8958-aacdedef7f94)
   	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/074eacc9-6284-4a41-9805-c9e30a169e5d)
   	![assets/image](https://github.com/PDSW-ECI/labs/assets/118181543/5c664e91-d3a3-4b56-867b-3b06d9ffce72)
 
+
+  ![alt text](assets/image-24.png)
+  
 4.	Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master
    
      [Pull Request - GitHub](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
