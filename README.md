@@ -194,6 +194,25 @@ Y así protegimos nuestra rama principal, esto se vuelve muy relevante cuando tr
 
 ![alt text](assets/image-32.png)
 
+
+CASO PARA VERIFICAR QUE TODO SALIÓ BIEN AL TENER QUE APROBAR EL PULL REQUEST PARA DESPUÉS HACER EL MERGE DE main y master.
+
+
+
+![alt text](assets/image-33.png)
+![alt text](assets/image-34.png)
+![alt text](assets/image-35.png)
+![alt text](assets/image-36.png)
+![alt text](assets/image-37.png)
+![alt text](assets/image-38.png)
+![alt text](assets/image-39.png)
+
+
+Y ASÍ QUEDA SOLO la main como rama en el repositorio.
+![alt text](assets/image-40.png)
+
+
+
 ## ENTREGA
 - En un README.md colocar lo siguiente:
 - Una sección llamada “INTEGRANTES” y allí colocar el listado de los integrantes del taller (máximo 2).
