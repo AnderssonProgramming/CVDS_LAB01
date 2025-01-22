@@ -17,8 +17,8 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 
 3.	Averigua para qué sirve y como se usan estos comandos **git add** y **git commit -m “mensaje”**
 
-    **git add** = 
-    **git commit -m "mensaje"** = 
+    ### **git add** = Mueve los cambios del directorio de trabajo al área del entorno de ensayo.
+    ### **git commit -m "mensaje"** = captura una instantánea de los cambios preparados en ese momento del proyecto.
 
 4. Abre una cuenta de github, si ya la tienes, enlazala con el correo institucional.
    
@@ -49,9 +49,7 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
     ```bash
      git config user.name "Nombre del usuario"
     ```
-    ![
-        
-    ](image-7.png)
+    ![alt text](image-7.png)
     ```bash
       git push "url repositorio"
     ```
@@ -61,10 +59,11 @@ ESCUELA COLOMBIANA DE INGENIERÍA - CICLOS DE VIDA DE DESARROLLO DE SOFTWARE
 8.	Configura el correo en git local de manera correcta
      [Configurar correo electrónico en GitHub](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
 
-     
+     ![alt text](image-11.png)
 9.	Vuelve a subir los cambios y observa que todo esté bien en el repositorio remoto (en GitHub).
 
-    ![alt text](image-10.png)
+    ![alt text](image-12.png)
+    ![alt text](image-13.png)
 
 
 ## PARTE II (Trabajo en parejas)
